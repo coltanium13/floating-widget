@@ -49,7 +49,7 @@ const FloatingWidget: React.FC<FloatingWidgetProps> = ({
           <div className={styles.content}>
             {messages.length === 0 ? (
               <p style={{ margin: 0, color: "#666", fontSize: "0.8rem" }}>
-                How can we help you today????
+                How can we help you today?
               </p>
             ) : (
               <div className={styles.messageLog}>
